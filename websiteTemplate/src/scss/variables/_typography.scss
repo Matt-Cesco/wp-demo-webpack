@@ -1,0 +1,104 @@
+
+// Font sizes
+
+body{
+   font-family: 'Roboto Flex', sans-serif;
+}
+
+.fs-xxsm{
+   font-size: 0.6rem;
+   font-weight: 400;
+   line-height: 1;
+}
+
+.fs-xsm{
+   font-size: 0.8rem;
+   font-weight: 400;
+   line-height: 1;
+}
+.fs-sm{
+   font-size: 0.9rem;
+   font-weight: 400;
+   
+}
+.fs-md{
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+}
+.fs-lg{
+   font-size: 1.15rem;
+   font-weight: 400;
+   line-height: 1.5;
+}
+.fs-xl{
+   font-size: 1.25rem;
+   font-weight: 400;
+   line-height: 1.5;
+}
+.fs-xxl{
+   font-size: 5rem;
+   font-weight: 800;
+   line-height: 0.75;
+}
+.fs-xxxl{
+   font-size: 6rem;
+   font-weight: 800;
+   line-height: 0.75;
+}
+
+// Responsive break points
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@media (max-width: $xl) {
+   .fs-xxl {
+      font-size: 3.5rem;
+   }
+   .fs-xxxl {
+      font-size: 8rem;
+   }
+}
+
+@media (max-width: $lg) {
+   .fs-xxl {
+      font-size: 3.5rem;
+   }
+   .fs-xxxl {
+      font-size: 5rem;
+   }
+}
+
+@media (max-width: $md) {
+   .fs-xl-plus {
+      font-size: 3rem;
+   }
+   .fs-xxl {
+      font-size: 3.5rem;
+   }
+   .fs-xxxl {
+      font-size: 6rem;
+   }
+}
+
+@media (max-width: $sm) {
+   .fs-lg {
+      font-size: 1rem;
+   }
+   .fs-xl {
+      font-size: 1.15rem;
+   }
+   .fs-xl-plus {
+      font-size: 1.25rem;
+   }
+   .fs-xxl {
+      font-size: 2rem;
+   }
+   .fs-xxxl {
+      font-size: 3.5rem;
+   }
+}

@@ -1,0 +1,45 @@
+$white: #ccc;
+$black: #1d1d1d;
+$grey: #f0f0f0;
+$primary: #FF9900;
+$secondary: #5BCF0B;
+
+.bg-primary{
+   background-color: $primary !important;
+}
+.bg-secondary{
+   background-color: $secondary !important;
+}
+.bg-grey{
+   background-color: $grey;
+}
+.primary-color{
+   color: $primary;
+}
+.secondary-color{
+   color: $secondary;
+}
+.text-white{
+   color: $white;
+}
+.text-orange{
+   color: $primary;
+}
+.text-green{
+   color: $secondary;
+}
+
+body{
+   background-color: $black;
+   color: $white;
+}
+
+a{
+   color: $secondary;
+   background-color: transparent;
+   text-decoration: none;
+   &:hover{
+      opacity: 70%;
+      color: $secondary;
+   }
+}

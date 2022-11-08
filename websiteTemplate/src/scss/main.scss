@@ -1,0 +1,14 @@
+// Import Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Variables: colors - typography
+@import './variables/typography';
+@import './variables/colors';
+
+// Layout: header - footer - forms
+@import './layout/header';
+@import './layout/footer';
+
+// Pages
+@import './pages/homepage';
+@import './pages/calendar';
